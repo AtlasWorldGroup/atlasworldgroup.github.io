@@ -1,0 +1,22 @@
+<aside id="list-nav">
+	<div class="list-group">
+	{% for nav in site.data.nav %}
+		{% if nav.subcategories != null %}
+          <a href="#{{ nav.title }}" id="{{ nav.title }}Anchor" class="list-group-item list-parent-item" data-toggle="collapse" data-parent="#list-nav" onclick="caret(this,{{ nav.title }});">{{ nav.title }} 
+		   <span id="{{ nav.title }}Mod"><span class="caret"></span></span>
+		  </a>
+		  <div class="collapse list-group-submenu" id="{{ nav.title }}">
+			{% for subcategory in nav.subcategories %}
+			  {% if subcategory.subtitle == page.title %}
+			    <a href="{{ site.url }}{{ subcategory.subhref }}" class="list-group-item list-sub-item mark">{{ subcategory.subtitle }}</a>
+			  {% else %}
+			    <a href="{{ site.url }}{{ subcategory.subhref }}" class="list-group-item list-sub-item">{{ subcategory.subtitle }}</a>
+			  {% endif %}			  
+			{% endfor %}
+		  </div>
+		{% else %} 
+		  <a href="{{ nav.href }}" class="list-group-item">{{ nav.title }}</a>
+		{% endif %}
+	{% endfor %}
+	</div>
+</aside>
