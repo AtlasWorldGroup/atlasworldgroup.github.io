@@ -6,7 +6,7 @@ title: Overview
 
 The following page shows an overview and some samples for some of the basic Bootstrap styling.
 
-        <div class="row">
+<div class="row">
           <div class="col-lg-8 col-md-7 col-sm-6">
             <h1>Atlas</h1>
             <p class="lead" style="margin-bottom: 0px">Atlas Standard with Ubuntu font</p>
@@ -1157,9 +1157,9 @@ The following page shows an overview and some samples for some of the basic Boot
             </div>
           </div>
         </div>
-      </div>
+</div>
 
-      <div id="source-modal" class="modal fade">
+<div id="source-modal" class="modal fade">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
@@ -1170,6 +1170,6 @@ The following page shows an overview and some samples for some of the basic Boot
               <pre></pre>
             </div>
           </div>
-        </div>
+</div>
 
 <script src="/assets/themes/atlas/js/custom.js"></script>
