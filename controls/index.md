@@ -168,8 +168,7 @@ These are additional classes included in the `atlas-toolkit.css` that can be app
 ### Scrollable Modal
 Add `.modal-body-scroller` to the `.modal-body` to make the body scrollable. The default `max-height` is `500px`
 
-<div class="modal">
-  <div class="modal-dialog modal-md">
+<div class="modal-dialog modal-md">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -197,7 +196,6 @@ Add `.modal-body-scroller` to the `.modal-body` to make the body scrollable. The
         <input type="text" class="form-control" placeholder="Message">
       </div>
     </div>
-  </div>
 </div>
 
 ~~~html
@@ -237,8 +235,7 @@ Add `.modal-body-scroller` to the `.modal-body` to make the body scrollable. The
 ### Modal Actions
 Instead of a `.modal-footer`, use `.modal-actions` with buttons that have the `modal-action` variant.
 
-<div class="modal">
-  <div class="modal-dialog modal-sm">
+<div class="modal-dialog modal-sm">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -254,7 +251,6 @@ Instead of a `.modal-footer`, use `.modal-actions` with buttons that have the `m
         </button>
       </div>
     </div>
-  </div>
 </div>
 
 ~~~html
@@ -281,7 +277,7 @@ Instead of a `.modal-footer`, use `.modal-actions` with buttons that have the `m
 
 ### Button Outlines
 Replace the provided button variant classes like `.btn-primary` with `.btn-primary-outline` to switch from the solid gradient backgrounds buttons to outline ones.
-<p class="help-block">`.btn-lg` and `btn-sm` can also be applied</p>
+<p class="help-block">`.btn-lg` and `.btn-sm` can also be applied</p>
 
 <button type="button" class="btn btn-default-outline">Default</button>
 <button type="button" class="btn btn-primary-outline">Primary</button>
@@ -301,7 +297,7 @@ Replace the provided button variant classes like `.btn-primary` with `.btn-prima
 
 ### Pill buttons
 Add `.btn-pill` to any button to make them more rounded.
-<p class="help-block">`.btn-lg` and `btn-sm` can also be applied</p>
+<p class="help-block">`.btn-lg` and `.btn-sm` can also be applied</p>
 
 <button type="button" class="btn btn-pill btn-default">Default</button>
 <button type="button" class="btn btn-pill btn-primary">Primary</button>
