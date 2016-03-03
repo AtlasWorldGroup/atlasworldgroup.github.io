@@ -3,7 +3,7 @@ layout: sample
 title: Overview Page
 ---
 {% include JB/setup %}
-
+<div class="container">
 <div class="row">
           <div class="col-lg-8 col-md-7 col-sm-6">
             <h1>Atlas</h1>
@@ -1168,6 +1168,7 @@ title: Overview Page
               <pre></pre>
             </div>
           </div>
+</div>
 </div>
 
 <script src="/assets/themes/atlas/js/custom.js"></script>
