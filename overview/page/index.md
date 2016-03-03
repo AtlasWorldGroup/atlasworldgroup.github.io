@@ -69,7 +69,7 @@ title: Overview Page
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-md-7 col-sm-6">
-      <h1>Atlas</h1>
+      <h1 style="margin-top: 5px;">Atlas</h1>
       <p class="lead" style="margin-bottom: 0px">Atlas Standard with Ubuntu font</p>
       <i class="help-block">Built with Bootswatch</i>
     </div>
