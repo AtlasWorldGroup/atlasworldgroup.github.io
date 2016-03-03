@@ -6,12 +6,11 @@ title: Overview
 
 The following page shows an overview and some samples for some of the basic Bootstrap styling.
 
-<div class="page-header" id="banner">
         <div class="row">
           <div class="col-lg-8 col-md-7 col-sm-6">
             <h1>Atlas</h1>
             <p class="lead" style="margin-bottom: 0px">Atlas Standard with Ubuntu font</p>
-			<i class="help-block">Built with Bootswatch</i>
+			         <i class="help-block">Built with Bootswatch</i>
           </div>
           <div class="col-lg-4 col-md-5 col-sm-6">
             <div class="sponsor">
@@ -1172,6 +1171,5 @@ The following page shows an overview and some samples for some of the basic Boot
             </div>
           </div>
         </div>
-      </div>
 
 <script src="/assets/themes/atlas/js/custom.js"></script>
