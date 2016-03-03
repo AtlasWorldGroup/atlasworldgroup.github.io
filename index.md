@@ -105,14 +105,17 @@ select option[default="true"] {
 
 #### Print
 Print columns are available. They can be added to any column by adding a `.col-p-*` class. For example:
+
 ~~~html
 <div class="row">
   <div class="col-p-12 col-sm-6 col-md-4">
+    12 column span when printed
   </div>
 </div>
 ~~~
 
 #### Helper Classes
+
 ~~~css
 .m-a-0 {
   margin: 0 !important;
