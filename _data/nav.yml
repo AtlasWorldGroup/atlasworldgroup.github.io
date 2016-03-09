@@ -6,6 +6,8 @@
   href: "/navigation"
 - title: "Form Controls"
   href: "/controls"
+- title: "Bootstrap Grid"
+  href: "/grid"
 - title: "Progress Spinner"
   href: "/spinner"
 ---
