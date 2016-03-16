@@ -93,7 +93,7 @@ There are four modes with the Date / Time picker.
     </span>
 </div>
 ~~~
-
+<div style="min-height:100px;"></div>
 <script>
   $(document).ready(function() {
     registerDateTimePicker();
