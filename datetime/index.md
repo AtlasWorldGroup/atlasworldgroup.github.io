@@ -93,13 +93,29 @@ There are four modes with the Date / Time picker.
     </span>
 </div>
 ~~~
-<div style="min-height:100px;"></div>
+
+## Allowing Input via keyboard
+
+To allow the user to enter the date or time via typing, add the following JavaScript to your page.
+
+~~~javascript
+// allow keyboard to be used on click
+$('[data-disable-touch-keyboard]').on('click', function (e) {
+  $(this).prop("readonly", false);
+  $(this).focus();
+
+});
+
+// make readonly to make sure virtual keyboard doesn't show
+$('[data-disable-touch-keyboard]').on('blur', function (e) {
+  $(this).prop("readonly", true);
+});
+~~~
+
 <script>
   $(document).ready(function() {
     registerDateTimePicker();
   });  
-
-
   // allow keyboard to be used on click
   $('[data-disable-touch-keyboard]').on('click', function (e) {
     $(this).prop("readonly", false);
