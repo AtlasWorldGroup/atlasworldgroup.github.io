@@ -11,16 +11,20 @@ We use <a href="http://http://eonasdan.github.io/bootstrap-datetimepicker/">boot
 ## Previews
 
 There are four modes with the Date / Time picker.
-<dl class="dl-horizontal">
-  <dt>Date</dt>
-  <dd>Only shows a calendar date picker</dd>
-  <dt>Time</dt>
-  <dd>Only shows a time picker</dd>
-  <dt>Date / Time</dt>
-  <dd>Show a calendar date picker with a icon to click bringing the time picker up</dd>
-  <dt>Date / Time: Side by Side</dt>
-  <dd>Show a date calendar and a time picker simultaneously in the same widget</dd>
-</dl>
+<ul class="list-group">
+  <li class="list-group-item">
+    <strong>Date:</strong> Only shows a calendar date picker
+  </li>
+  <li class="list-group-item">
+    <strong>Time:</strong> Only shows a time picker
+  </li>
+  <li class="list-group-item">
+    <strong>Date / Time:</strong> Show a calendar date picker with a icon to click bringing the time picker up
+  </li>
+  <li class="list-group-item">
+    <strong>Date / Time - Side by Side:</strong> Show a date calendar and a time picker simultaneously in the same widget
+  </li>
+</ul>
 
 ### Date
 <div class="input-group" data-datetime="date">
@@ -60,7 +64,7 @@ There are four modes with the Date / Time picker.
 
 ### Date / Time
 <div class="input-group" data-datetime="both">
-  <asp:TextBox ID="txtID" runat="server"CssClass="form-control" readonly data-disable-touch-keyboard></asp:TextBox>
+  <input ID="txtID" class="form-control" readonly data-disable-touch-keyboard />
   <span class="input-group-addon primary">
     <i class="fa fa-calendar"></i>
   </span>
@@ -76,7 +80,7 @@ There are four modes with the Date / Time picker.
 
 ### Date / Time: Side by Side
 <div class="input-group" data-datetime="both-side">
-  <asp:TextBox ID="txtID" runat="server"CssClass="form-control" readonly data-disable-touch-keyboard></asp:TextBox>
+  <input ID="txtID" class="form-control" readonly data-disable-touch-keyboard />
   <span class="input-group-addon primary">
     <i class="fa fa-calendar"></i>
   </span>
@@ -89,3 +93,9 @@ There are four modes with the Date / Time picker.
     </span>
 </div>
 ~~~
+
+<script>
+  $(document).ready(function() {
+    registerDateTimePicker();
+  });  
+</script>
