@@ -39,7 +39,7 @@
     }, 'fast');
     return this; // for chaining...
   }
-  // end goTo     
+  // end goTo
   //center
   $.fn.center = function () {
     this.css("position", "absolute");
@@ -218,15 +218,4 @@ function registerDateTimePicker() {
     sideBySide: true
   });
 }
-
-// allow keyboard to be used on click
-$('[data-disable-touch-keyboard]').on('click', function (e) {
-  $(this).prop("readonly", false);
-  $(this).focus();
-});
-
-// make readonly to make sure virtual keyboard doesn't show
-$('[data-disable-touch-keyboard]').on('blur', function (e) {
-  $(this).prop("readonly", true);
-});
 /* End DateTimePicker */

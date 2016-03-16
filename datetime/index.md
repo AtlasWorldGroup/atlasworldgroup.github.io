@@ -98,4 +98,17 @@ There are four modes with the Date / Time picker.
   $(document).ready(function() {
     registerDateTimePicker();
   });  
+
+
+  // allow keyboard to be used on click
+  $('[data-disable-touch-keyboard]').on('click', function (e) {
+    $(this).prop("readonly", false);
+    $(this).focus();
+
+  });
+
+  // make readonly to make sure virtual keyboard doesn't show
+  $('[data-disable-touch-keyboard]').on('blur', function (e) {
+    $(this).prop("readonly", true);
+  });
 </script>
