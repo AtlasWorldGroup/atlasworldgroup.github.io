@@ -315,12 +315,12 @@
   border: 0 none;
 }
 
+/* Remove because date time stuff
 .markdown-body ul,
 .markdown-body ol {
   padding-left: 2em;
 }
 
-/* Remove because date time stuff
 .markdown-body ul ul,
 .markdown-body ul ol,
 .markdown-body ol ol,
@@ -424,7 +424,7 @@
 }
 
 .markdown-body .highlight {
-  margin-bottom: 16px;
+  margin: 15px 0;
 }
 
 .markdown-body .highlight pre,
