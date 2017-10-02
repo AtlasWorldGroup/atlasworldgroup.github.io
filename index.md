@@ -10,24 +10,12 @@ The purpose of this site is to aid in documenting AtlasNet application standards
 
 To implement the AtlasNet standards for styling using Bootstrap, you will need our custom built `bootstrap.css` and `atlas-toolkit.css`.
 
-~~~bash
-Install-Package Atlas.Standard
-~~~
-NOTE: This NuGet package is still in development. Currently, it is only available for C#.
+These can be viewed and downloaded from [https://github.com/AtlasWorldGroup/Atlas.Standard](https://github.com/AtlasWorldGroup/Atlas.Standard). Both normal and minified versions are available.
 
 ### Files Included
 ~~~bash
 Solution/
 ├── css/
-│   ├── fonts-awesome/
-│       ├── font-awesome.min.css
-│   ├── fonts
-│       ├── font-awesome-webfont.eot
-│       ├── font-awesome-webfont.svg
-│       ├── font-awesome-webfont.ttf
-│       ├── font-awesome-webfont.woff
-│       ├── font-awesome-webfont.woff2
-│       ├── FontAwesome.otf
 │   ├── atlas-toolkit.css
 │   ├── bootstrap.css
 │   ├── bootstrap.min.css
@@ -38,8 +26,6 @@ Solution/
 ├── js/
     ├── blockUI.js
     └── bootstrap.js
-    └── bootstrap.plugins.js
-    └── tablesaw-init.js
     └── tablesaw.js
 ~~~
 ## CSS Styling
@@ -307,7 +293,7 @@ Print columns are available. They can be added to any column by adding a `.col-p
 }
 ~~~
 
-#### ECT
+#### ETC
 The rest of the styles in this sheet are explained via examples and other pages. This sheet includes the radio styles, checkbox styles, and modal styles that are extended from core Bootstrap. They can be found in the Form Controls documentation.
 
 ## Icons
